@@ -1,0 +1,23 @@
+{
+  "name": "hopital",
+  "version": "1.0.0",
+  "description": "A hospital web app interact with API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Chaitanya Karle",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "exact": "^0.8.0",
+    "express": "^4.18.2",
+    "json5": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  }
+}
